@@ -202,7 +202,7 @@ class TetrisScene {
 		animation.fromValue = from
 		animation.toValue = to
 		animation.duration = during
-		animation.fillMode = kCAFillModeForwards
+		animation.fillMode = CAMediaTimingFillMode.forwards
 		animation.isRemovedOnCompletion = false
 		node.addAnimation(animation, forKey: nil)
 	}
